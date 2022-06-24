@@ -1,0 +1,16 @@
+   /* nav bar style */
+.nav-link:hover{
+    text-decoration:underline;
+    transform: scale(1.2);
+    color:rgb(124, 85, 148);
+    
+}
+.nav-link{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: larger;
+color:rgb(124, 85, 148);
+}
+#div-nav{
+    margin-top: 15px;
+}
+

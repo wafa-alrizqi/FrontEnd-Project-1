@@ -209,14 +209,13 @@ body{
 
 .center {
     position: absolute;
+    padding: 50px 50px 50px 50px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 15px;
     background-color: rgba(255, 255, 255,0.7);
-    border-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border-radius: 20px;
     margin-top: 3%;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
     text-transform: capitalize;
@@ -227,6 +226,10 @@ body{
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 10px;
+  display: block;
+  width: 300px;
+  height: 40px;
+  color: white;
 }
 .aboutcenter{
     position: absolute;
@@ -266,10 +269,13 @@ hr{
     display: inline-block;
     width: 300px;
     height: 40px;
-    }
+    color: white;
+}
+
+
  #container{
     text-align: center;
-
+    margin-bottom: 30%;
  }   
 
 
@@ -287,26 +293,30 @@ hr{
 }
 
 .center2{
-    height: 100%;
-    background-color: rgba(255, 255, 255,0.7);
-
-}
-#img-fact{
-    height: 300px;
-    width:300px;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize; 
+    width:800px;
+    height: 100px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 3%;
-
-    
 }
-#container, #content, #fact-f{
-    background-color: rgba(255, 255, 255,0.7);
 
+#img-fact{
+    height: 300px;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;  
 }
+
 .card{
-    background-color: #F9F1F0
+    /* background-color: #F9F1F0; */
+    background: rgba(255, 255, 255,0.7);
+    border-radius: 30px;
+    text-align: left;
 }
+
 
 /* login page */
 .login-form {
@@ -314,15 +324,13 @@ hr{
     margin: 50px auto;
   	font-size: 15px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    
 }
 .login-form form {
     margin-bottom: 15px;
     background: rgba(255, 255, 255,0.7);
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
     padding: 30px;
-
+    border-radius: 30px;
 }
 .login-form h2 {
     margin: 0 0 15px;
@@ -334,4 +342,8 @@ hr{
 .btn {        
     font-size: 15px;
     font-weight: bold;
+    /* background-color: rebeccapurple; */
+    background: linear-gradient(315deg, #606264 30px, #c0607e 90px, #FFD667 100%);
+
+
 }

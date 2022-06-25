@@ -36,10 +36,30 @@
     </div> -->
     <div class="container">
         <div class="center">
-            <h1>In the greatest manner imaginable <br> random entertaining facts catch us off surprise</h1>
-            <button type="button" class="btn btn-outline-secondary">Start</button>
+
+            <div id="startDIV">
+                <h1>In the greatest manner imaginable <br> random entertaining facts catch us off surprise</h1>
+                <button onclick="myFunction()" type="button" class="btn btn-outline-secondary">Start</button>
+            </div>
+
+            <div id="contentDIV" style="display:none">
+                <div id="container">
+                    <header>
+                        <h1>Quick Fact</h1>
+                    </header>
+                    <section id="content">
+                        <span class="" id="fact-f">fact</span>
+                    </section>
+                </div>
+
+                <button onclick="random_fact()" type="submit" id="btn-content-1" class="btn btn-outline-secondary">Quick Fact</button>
+                <button onclick="myFunction()" type="button" id="btn-content-2" class="btn btn-outline-secondary">Back To Home</button>
+            </div>
+
         </div>
     </div>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -90,3 +90,7 @@ hr{
     margin-left:0;
     padding-bottom: 10px;
 }
+
+#btn-content-1 , #btn-content-2 {
+    display:inline-block;
+    }

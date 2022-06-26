@@ -26,6 +26,17 @@
             <li class="nav-item">
                 <a class="nav-link" href="sign-up.html">Sign-up</a>
             </li>
+
+            <li class="nav-item">
+                <a class="nav-link" onclick="myDark()">
+                    <div class="fs-2 mb-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-toggle-on" viewBox="0 0 16 16">
+                        <path d="M5 3a5 5 0 0 0 0 10h6a5 5 0 0 0 0-10H5zm6 9a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"></path>
+                        </svg>
+                      </div>   
+                </a>       
+            </li>
+
         </ul>
     </div>
 
@@ -44,10 +55,14 @@
                 <section id="content">
                     <span class="" id="fact-f">
                         <div class="card mb-3">
-                            <img  id ="img-fact" src="..." class="card-img-top" alt="...">
+                            <!-- responsive image using Bootstrap -->
+                            <div class="img-fluid">
+                                <img  id ="img-fact" src="https://www.rd.com/wp-content/uploads/2021/05/split-screen-earth-and-gold-orb.jpg?resize=768,512" class="card-img-top" alt="...">
+                            </div>
                             <div class="card-body">
-                              <h4 id="h4-fact" class="card-title">Card title</h4>
-                              <p id="p-fact" class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                              <h4 id="h4-fact" class="card-title">There's Enough Gold Inside Earth To Coat The Planet</h4>
+                              <p id="p-fact" class="card-text">
+                                Turns out, there's quite a bit of gold on—or, really, in—our planet: 99 percent of the precious metal can be found in the Earth's core, Discover Magazine reports. How much is there? Enough to coat the entire surface of the Earth in 1.5 feet of gold.
                             </div>
                         </div>
                     </span>
@@ -56,7 +71,7 @@
                 <button onclick="myFunction()" type="button" id="btn-content-2" class="btn btn-outline-secondary">Back To Home</button>
             </div>
         </div>
-    
+ 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

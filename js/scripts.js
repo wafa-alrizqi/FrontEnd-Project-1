@@ -43,6 +43,7 @@ function check(){
     var userPw = document.getElementById('userPw');
 
     if(userName.value == storedName && userPw.value == storedPw){
+        window.location.href = 'index.html';
         alert('You are logged in.');
         }else{
         alert('Error on login');
@@ -68,13 +69,9 @@ fact_f=window.location.replace()
 
 function random_fact(){
     random1 = Math.ceil(Math.random()*6)
-    // var span =document.getElementById("fact-f")
     var h4 = document.getElementById("h4-fact")
     var p = document.getElementById("p-fact")
     var img = document.getElementById("img-fact")
-
-    
-
 
     if (random1 == 1){
         h4.innerText='Sudan has more pyramids than any country in the world'
@@ -117,4 +114,4 @@ function random_fact(){
 function myDark() {
     var element = document.body;
     element.classList.toggle("dark-mode");
- }
+}

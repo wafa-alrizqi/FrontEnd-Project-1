@@ -1,5 +1,5 @@
 @media only screen and (max-width: 480px) {
-/* nav bar style */
+    /* nav bar style */
 .nav {
     box-shadow: 0px 5px 5px 0px rgba(201, 54, 54, 0.2);
 }
@@ -8,14 +8,11 @@
     color: #256C70;
     font-weight: bolder;
 }
-
 .nav-link{
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-size: larger;
 color: #BF0D70;
 font-weight: bolder;
-
-
 }
 #div-nav{
     margin-top: 15px;
@@ -25,7 +22,6 @@ font-weight: bolder;
     /* color:rgb(149, 174, 155); */
     color: #BF0D70;
 }
-
 h1, h2 {
     font-size: 24px;
     color: #BF0D70;
@@ -46,19 +42,22 @@ body{
     /* background-color: #256C70;  */
     background-image: url('https://images.unsplash.com/photo-1554034483-04fda0d3507b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    z-index: 1;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    filter: grayscale(30%);
+ 
 }
-
 .center {
     position: absolute;
+    padding: 50px 50px 50px 50px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 15px;
     background-color: rgba(255, 255, 255,0.7);
-    border-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border-radius: 20px;
     margin-top: 3%;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
     text-transform: capitalize;
@@ -69,6 +68,10 @@ body{
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 10px;
+  display: block;
+  width: 300px;
+  height: 40px;
+  color: white;
 }
 .aboutcenter{
     position: absolute;
@@ -79,19 +82,6 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-h4{
-    display: block;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    margin: 0 0 16px;
-    text-align: left; 
-    /* color: rgb(44, 44, 44); */
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 800;
-}
 hr{
     height: 1px;
     border-top: 3px solid grey;
@@ -101,54 +91,116 @@ hr{
     margin-left:0;
     padding-bottom: 10px;
 }
-
 #btn-content-1 , #btn-content-2 {
     display: inline-block;
     width: 300px;
     height: 40px;
-    }
+    color: white;
+}
  #container{
     text-align: center;
-
+    margin-bottom: 30%;
  }   
-
-
 #h4-fact{
     display: block;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    margin: 0 0 16px;
+    margin-top: 10px; 
     text-align: left; 
     color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: 800;
-}
+    line-height:20pt;
 
+}
 .center2{
-    height: 100%;
-    background-color: rgba(255, 255, 255,0.7);
-
-}
-#img-fact{
-    height: 300px;
-    width:300px;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize; 
+    width:800px;
+    height: 100px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 3%;
-
-    
 }
-#container, #content, #fact-f{
-    background-color: rgba(255, 255, 255,0.7);
-
+.img-fluid{
+    height: 300px;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;  
+    margin-bottom: 25px;
 }
+
 .card{
-    background-color: #F9F1F0
+    /* background-color: #F9F1F0; */
+    background: rgba(255, 255, 255,0.7);
+    border-radius: 30px;
+    text-align: left;
 }
+/* login page */
+.login-form {
+    width: 340px;
+    margin: 50px auto;
+  	font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255,0.7);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(315deg, #606264 30px, #c0607e 90px, #FFD667 100%);
+}
+.mode {
+    float:right;
+}
+.dark-mode {
+    background-image: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background_1258-24595.jpg?w=360');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+    filter: grayscale(100%);
+   }
+.dark-mode h4{
+    display: block;
+    margin-top: 10px; 
+    text-align: left; 
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 800;
+    line-height:20pt;
+}
+.dark-mode h1{
+    display: block;
+    margin-top: 10px; 
+    text-align: left; 
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 800;
+    line-height:20pt;
+}
+.dark-mode header h1{
+    display: block;
+    margin-top: 10px; 
+    text-align: center; 
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 800;
+    line-height:20pt;
 
-
+}
 }
 
 /* nav bar style */
